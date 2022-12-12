@@ -54,8 +54,7 @@ export default defineConfig(({ command, mode }) => {
             }
           ]
         },
-        workbox: {
-          sourcemap: true,
+        injectManifest: {
           globIgnores: ['**/config.js', '**/.version']
         },
         devOptions: {

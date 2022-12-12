@@ -19,7 +19,6 @@ import type {
   NetworkOnly,
   Strategy
 } from 'workbox-strategies'
-import type { ManifestEntry } from 'workbox-build'
 
 declare let self: ServiceWorkerGlobalScope
 
