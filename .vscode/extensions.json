@@ -1,0 +1,16 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "aaron-bond.better-comments",
+    "humao.rest-client",
+    "mhutchie.git-graph",
+    "ms-azuretools.vscode-docker",
+    "visualstudioexptteam.vscodeintellicode",
+    "pkief.material-icon-theme",
+    "streetsidesoftware.code-spell-checker",
+    "zhuangtongfa.material-theme",
+    "irongeek.vscode-env",
+    "ms-vscode-remote.vscode-remote-extensionpack"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "useDefineForClassFields": true,
+    "lib": ["dom", "dom.iterable", "esnext", "WebWorker"],
+    "allowJs": false,
+    "skipLibCheck": true,
+    "noImplicitAny": true,
+    "esModuleInterop": false,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "sourceMap": true,
+    "declaration": true,
+    "types": ["vite-plugin-pwa", "vite-plugin-pwa/client"],
+    "paths": {
+      "@app/modules": ["./src/modules"],
+      "@app/modules/*": ["./src/modules/*"],
+      "@app/common": ["./src/common"],
+      "@app/common/*": ["./src/common/*"]
+    }
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "build", "dev-dist"],
+  "references": [{ "path": "./tsconfig.build.json" }]
+}
